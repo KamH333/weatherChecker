@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="weather.css">
+    </head>
+    <body>
+
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="enter city name" spellcheck="false">
+                <button><img src="searchIcon.png"></button>
+            </div>
+            <div class="error">
+                <p>Invalid city name</p>
+            </div>
+            <div class="weather">
+                <img src="cloudy.png" class="weatherIcon">
+                <h1 class="temp">59°F</h1>
+                <h2 class="city">Indianapolis</h2>
+                <div class="details">
+                    <div class="col">
+                        <img class="humidityIcon" src="humidity.png">
+                        <div>
+                            <p class="humidity">86%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img class="windIcon" src="wind.png">
+                        <div>
+                            <p class="wind">4 mph</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src = "weather.js"></script>
+    </body>
+</html>
